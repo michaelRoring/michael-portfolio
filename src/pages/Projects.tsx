@@ -14,7 +14,7 @@ const Projects = () => {
       link: "https://twp-dev.webflow.io/",
       techStacks: ["webflow"],
       role: "project manager",
-      image: `${process.env.PUBLIC_URL}/public/docs/twp.png`,
+      image: `https://i.postimg.cc/6508kZXp/twp.png`,
     },
     {
       index: 2,
@@ -22,7 +22,7 @@ const Projects = () => {
       link: "",
       techStacks: ["nextjs", "typescript", "tailwindcss"],
       role: "fullstack web developer",
-      image: `${process.env.PUBLIC_URL}/public/docs/leaders-hangar.png`,
+      image: `https://i.postimg.cc/9XyRBSgT/leaders-hangar.png`,
     },
   ];
 

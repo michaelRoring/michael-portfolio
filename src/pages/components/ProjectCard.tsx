@@ -18,6 +18,7 @@ export const ProjectCard: React.FC<Props> = ({ content }) => {
                     src={item?.image}
                     alt="card-image"
                     className="h-full w-full rounded-2xl object-cover shadow-lg md:rounded-lg"
+                    loading="lazy"
                   />
                 </div>
                 <div className="p-6">
