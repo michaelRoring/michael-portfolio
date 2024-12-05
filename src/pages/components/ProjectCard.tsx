@@ -1,5 +1,4 @@
 import { ProjectList } from "../../lib/definition";
-import { Subheading } from "./atoms/Subheading";
 import LineBreak from "./LineBreak";
 
 interface Props {

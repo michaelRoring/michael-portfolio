@@ -1,14 +1,11 @@
 import { ExperienceList, EducationList } from "../lib/definition";
-// import SecondaryButton from "./components/SecondaryButton";
 import AnimatePulse from "./components/AnimatePulse";
-// import Achievement from "./components/Achievement";
 import { CompanyTable } from "./components/CompanyTable";
 import LineBreak from "./components/LineBreak";
 import { Heading } from "./components/atoms/Heading";
 import { Subheading } from "./components/atoms/Subheading";
 import BackButton from "./components/atoms/PrimaryButton";
 import EducationCard from "./components/EducationCard";
-import EducationTable from "./components/EducationTable";
 
 const experienceList: ExperienceList[] = [
   {

@@ -1,6 +1,4 @@
 import { ExperienceList } from "../../lib/definition";
-import LineBreak from "./LineBreak";
-
 interface Props {
   content: ExperienceList[];
 }

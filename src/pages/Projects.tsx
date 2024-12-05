@@ -1,5 +1,4 @@
 import AnimatePulse from "./components/AnimatePulse";
-import ProjectTable from "./components/ProjectTable";
 import BackButton from "./components/atoms/PrimaryButton";
 import { Heading } from "./components/atoms/Heading";
 import { Subheading } from "./components/atoms/Subheading";
