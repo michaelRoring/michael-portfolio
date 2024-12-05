@@ -15,14 +15,17 @@ const Projects = () => {
       techStacks: ["webflow"],
       role: "project manager",
       image: `https://i.postimg.cc/6508kZXp/twp.png`,
+      description:
+        "spearheaded the web development of one of singapore's biggest party website as the project lead, guiding a dynamic team of 3 through a streamlined webflow-powered creation process. i managed to wrangle web design faster than a politician manages talking points - and with significantly less spin ",
     },
     {
       index: 2,
       title: `leader's hangar`,
-      link: "",
-      techStacks: ["nextjs", "typescript", "tailwindcss"],
-      role: "fullstack web developer",
+      techStacks: ["nextjs", "typescript", "tailwindcss", "supabase", "supabase auth"],
+      role: "project lead, fullstack web developer",
       image: `https://i.postimg.cc/9XyRBSgT/leaders-hangar.png`,
+      description:
+        "led the full-stack development of leader's hangar as project lead, orchestrating a three-person team using next.js, supabase, and supabase auth to create a robust web application. i piloted this project like a software engineer pilots a drone - with precision, a touch of swagger, and hopefully fewer unexpected crashes!",
     },
   ];
 

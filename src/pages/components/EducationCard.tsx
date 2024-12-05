@@ -8,12 +8,12 @@ interface Props {
 const EducationCard: React.FC<Props> = ({ content }) => {
   return (
     <>
-      <div className="flex items-center justify-center gap-20">
+      <div className="items-center justify-center gap-20 md:flex">
         {content?.map((item) => {
           return (
-            <div className="h-[40rem] max-w-sm rounded-2xl bg-slate-800 transition duration-500 ease-in-out hover:bg-slate-900">
+            <div className="mb-8 h-[40rem] max-w-sm rounded-2xl bg-slate-800 transition duration-500 ease-in-out hover:bg-slate-900">
               <img
-                className="h-96 w-full rounded-t-2xl object-cover"
+                className="h-96 w-full rounded-t-2xl bg-slate-900 object-contain transition duration-500 ease-in-out hover:bg-slate-50"
                 src={item?.image}
                 alt=""
                 loading="lazy"
@@ -33,7 +33,7 @@ const EducationCard: React.FC<Props> = ({ content }) => {
                 {item?.certificationUrl && (
                   <div className="flex items-center">
                     <a href={item?.certificationUrl} className="">
-                      <span className="mt-4 flex rounded-lg bg-white p-2 text-slate-950 transition duration-500 ease-in-out hover:bg-slate-600 hover:text-white">
+                      <span className="mt-4 flex rounded-lg bg-white p-2 px-4 text-slate-950 transition duration-500 ease-in-out hover:bg-slate-600 hover:text-white">
                         <p className="text-md font-normal">view certification</p>
                       </span>
                     </a>

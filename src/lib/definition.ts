@@ -21,22 +21,22 @@ export interface EducationList {
 export interface ProjectList {
   index: number;
   title: string;
-  link: string;
+  link?: string;
   techStacks: string[];
   role: string;
   githubLink?: string;
   image: string;
+  description: string;
 }
 
-export interface TableConfig {
-  headers: string[];
-  keys: string[];
-}
-
-export interface TableProps {
-  content: ExperienceList[] | EducationList[];
-  type: "experience" | "education";
+export interface CertificationList {
+  index: number;
   title: string;
+  platform: string;
+  issued: string;
+  link?: string;
+  image?: string;
+  description?: string;
 }
 
 export interface ContactList {
@@ -45,4 +45,10 @@ export interface ContactList {
   platform: string;
   icon: React.ReactNode;
   description?: string;
+}
+
+export interface TechStackList {
+  index: number;
+  name: string;
+  type: string;
 }
