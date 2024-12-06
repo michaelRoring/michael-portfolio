@@ -3,6 +3,7 @@ import LineBreak from "./components/LineBreak";
 import { Heading } from "./components/atoms/Heading";
 import { Subheading } from "./components/atoms/Subheading";
 import BackButton from "./components/atoms/PrimaryButton";
+import { Github } from "lucide-react";
 
 const About = () => {
   return (
@@ -63,8 +64,25 @@ const About = () => {
             p.s. i promise to keep the marketing puns to a minimum in our collaboration... mostly 😄
           </Subheading>
           <LineBreak />
-          {/* <SecondaryButton link="/">back</SecondaryButton> */}
-          <BackButton link="/">back</BackButton>
+          <Heading>my activity record / wakatime</Heading>
+          <LineBreak />
+          <div className="">
+            <figure>
+              <embed src="https://wakatime.com/share/@mroring/55acc4af-6ccb-45aa-8328-9c5513a783b0.svg"></embed>
+            </figure>
+          </div>
+          <LineBreak />
+          <div className="flex gap-2">
+            <BackButton link="/">back</BackButton>
+            <div className="flex gap-2">
+              <a href="https://github.com/michaelRoring" target="_blank">
+                <div className="my-2 flex w-32 items-center justify-center rounded-lg bg-slate-500 px-4 py-2 transition duration-500 ease-in-out hover:bg-slate-700">
+                  <Github />
+                  <p>github</p>
+                </div>
+              </a>
+            </div>
+          </div>
           <AnimatePulse />
         </div>
       </div>
