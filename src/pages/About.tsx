@@ -63,14 +63,8 @@ const About = () => {
           <Subheading>
             p.s. i promise to keep the marketing puns to a minimum in our collaboration... mostly 😄
           </Subheading>
-          <LineBreak />
-          <Heading>my activity record / wakatime</Heading>
-          <LineBreak />
-          <div className="">
-            <figure>
-              <embed src="https://wakatime.com/share/@mroring/55acc4af-6ccb-45aa-8328-9c5513a783b0.svg"></embed>
-            </figure>
-          </div>
+
+          {/* insert wakatime here */}
           <LineBreak />
           <div className="flex gap-2">
             <BackButton link="/">back</BackButton>

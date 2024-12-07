@@ -121,9 +121,19 @@ const certificationList: CertificationList[] = [
     platform: "hacktiv8",
     issued: "may 2023",
     link: "https://i.postimg.cc/DwnzMCNN/Hacktiv8-Certificate.png",
-    image: "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/mlogo/HA8-60028.jpg",
+    image: "https://i.postimg.cc/g04WBYpC/Screenshot-2024-12-08-at-02-38-26.png",
     description:
       "conquered the full stack javascript immersive bootcamp, transforming from a old brain programmer to a javascript juggler who can navigate both frontend and backend landscapes with newfound confidence. survived the learning curve that's steeper than a roller coaster designed by caffeine-fueled programmers - and made some awesome friends along the way ",
+  },
+  {
+    index: 5,
+    title: "blockchain developer program",
+    platform: "solana academy",
+    issued: "aug 2023",
+    link: "https://drive.google.com/file/d/1gA0oFiPv1Ec9spZzMdz0Vn5om-huiEZz/view",
+    image: "https://cryptologos.cc/merch/solana-sol-sticker.jpg?v=035",
+    description:
+      "a mini bootcamp for me to learn blockchain technology. met a lot of people across the nation as cohorts, and it was a great experience. still haven't mastered the basics of blockchain, but i'm still learning..",
   },
 ];
 

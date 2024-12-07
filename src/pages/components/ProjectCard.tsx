@@ -17,24 +17,25 @@ export const ProjectCard: React.FC<Props> = ({ content }) => {
                   <img
                     src={item?.image}
                     alt="card-image"
-                    className="h-full w-full rounded-2xl object-cover shadow-inner md:rounded-2xl"
+                    className="h-full w-full rounded-md object-cover shadow-inner md:rounded-2xl"
                     loading="lazy"
                   />
                 </div>
                 <div className="p-6">
-                  <div className="flex flex-wrap gap-5">
+                  <h4 className="mb-2 text-2xl font-semibold text-slate-50">{item?.title}</h4>
+                  <h2 className="text-xs font-semibold text-slate-300">role: {item?.role}</h2>
+                  <LineBreak length={4} />
+                  <div className="flex flex-wrap gap-2">
                     {item?.techStacks?.map((stack) => {
                       return (
-                        <div className="mb-4 w-fit rounded-full border border-transparent bg-slate-700 px-2.5 py-0.5 text-center text-xs text-white shadow-sm transition-all">
+                        <div className="w-fit rounded-full border border-transparent bg-slate-700 px-2.5 text-center text-xs text-white shadow-sm transition-all">
                           {stack}
                         </div>
                       );
                     })}
                   </div>
 
-                  <h4 className="mb-2 text-2xl font-semibold text-slate-50">{item?.title}</h4>
-                  <h2 className="text-xs font-semibold text-slate-300">role: {item?.role}</h2>
-                  <LineBreak />
+                  <LineBreak length={10} />
                   <p className="mb-8 font-light text-slate-500">{item?.description}</p>
                   <div>
                     {item?.link ? (
