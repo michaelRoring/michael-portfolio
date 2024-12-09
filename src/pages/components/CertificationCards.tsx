@@ -11,10 +11,7 @@ const CertificationCards: React.FC<Props> = ({ content }) => {
         {content?.map((item) => {
           return (
             <div key={item?.index}>
-              <a
-                href="#"
-                className="flex flex-col rounded-2xl bg-slate-700 p-2 transition duration-500 ease-in-out hover:bg-slate-900 md:h-[550px] md:max-w-xl md:flex-row"
-              >
+              <p className="flex flex-col rounded-2xl bg-slate-700 p-2 transition duration-500 ease-in-out hover:bg-slate-900 md:h-[550px] md:max-w-xl md:flex-row">
                 <img
                   className="lg h-96 w-full rounded-lg object-cover shadow-inner md:h-auto md:w-48 [&:not(:root)]:md:object-[15%_50%]"
                   //   style={{ objectPosition: "25% 50%" }}
@@ -38,7 +35,7 @@ const CertificationCards: React.FC<Props> = ({ content }) => {
                     </span>
                   </a>
                 </div>
-              </a>
+              </p>
             </div>
           );
         })}
